@@ -1,0 +1,92 @@
+[debug] [2019-08-11T19:31:44.669Z] ----------------------------------------------------------------------
+[debug] [2019-08-11T19:31:44.673Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Антон\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js functions:shell
+[debug] [2019-08-11T19:31:44.673Z] CLI Version:   7.2.2
+[debug] [2019-08-11T19:31:44.673Z] Platform:      win32
+[debug] [2019-08-11T19:31:44.673Z] Node Version:  v11.6.0
+[debug] [2019-08-11T19:31:44.675Z] Time:          Sun Aug 11 2019 22:31:44 GMT+0300 (GMT+03:00)
+[debug] [2019-08-11T19:31:44.675Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-08-11T19:31:44.692Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-08-11T19:31:44.695Z] > authorizing via signed-in user
+[debug] [2019-08-11T19:31:44.695Z] [iam] checking project migg-63592 for permissions ["firebase.projects.get"]
+[debug] [2019-08-11T19:31:44.698Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/migg-63592:testIamPermissions  
+
+[debug] [2019-08-11T19:31:45.804Z] <<< HTTP RESPONSE 200
+[warn] !  Your requested "node" version "8" doesn't match your global version "11"
+[debug] [2019-08-11T19:31:45.843Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/migg-63592/adminSdkConfig  
+ 
+[debug] [2019-08-11T19:31:46.107Z] <<< HTTP RESPONSE 200
+[info] +  functions: Emulator started at http://localhost:5000
+[debug] [2019-08-11T19:31:46.403Z] [functions] Watching "E:\migg\functions" for Cloud Functions...
+[debug] [2019-08-11T19:31:47.938Z] DEBUG: [runtime-status] Functions runtime initialized. {"cwd":"E:\\migg\\functions","node_version":"11.6.0"}
+[debug] [2019-08-11T19:31:47.938Z] DEBUG: [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-08-11T19:31:47.943Z] DEBUG: [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.3.0","resolution":"E:\\migg\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-08-11T19:31:47.945Z] DEBUG: [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"E:\\migg\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-08-11T19:31:47.946Z] DEBUG: [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"E:\\migg\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[warn] !  Error: Cannot find module './__sapper__/build/server/server'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:603:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:25)
+    at Module.require (internal/modules/cjs/loader.js:657:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (E:\migg\functions\index.js:5:20)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+[warn] !  We were unable to load your functions code. (see above)
+[debug] [2019-08-11T19:32:01.039Z] DEBUG: File E:\migg\functions\package.json changed, reloading triggers
+[debug] [2019-08-11T19:32:04.154Z] DEBUG: [runtime-status] Functions runtime initialized. {"cwd":"E:\\migg\\functions","node_version":"11.6.0"}
+[debug] [2019-08-11T19:32:04.156Z] DEBUG: [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-08-11T19:32:04.162Z] DEBUG: [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.3.0","resolution":"E:\\migg\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-08-11T19:32:04.170Z] DEBUG: [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"E:\\migg\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-08-11T19:32:04.171Z] DEBUG: [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"E:\\migg\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[warn] !  Error: Cannot find module './__sapper__/build/server/server'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:603:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:25)
+    at Module.require (internal/modules/cjs/loader.js:657:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (E:\migg\functions\index.js:5:20)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+[warn] !  We were unable to load your functions code. (see above)
+[debug] [2019-08-11T19:32:18.886Z] ----------------------------------------------------------------------
+[debug] [2019-08-11T19:32:18.888Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Антон\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js functions:shell
+[debug] [2019-08-11T19:32:18.890Z] CLI Version:   7.2.2
+[debug] [2019-08-11T19:32:18.890Z] Platform:      win32
+[debug] [2019-08-11T19:32:18.890Z] Node Version:  v11.6.0
+[debug] [2019-08-11T19:32:18.891Z] Time:          Sun Aug 11 2019 22:32:18 GMT+0300 (GMT+03:00)
+[debug] [2019-08-11T19:32:18.892Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-08-11T19:32:18.908Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-08-11T19:32:18.911Z] > authorizing via signed-in user
+[debug] [2019-08-11T19:32:18.911Z] [iam] checking project migg-63592 for permissions ["firebase.projects.get"]
+[debug] [2019-08-11T19:32:18.915Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/migg-63592:testIamPermissions  
+
+[debug] [2019-08-11T19:32:19.964Z] <<< HTTP RESPONSE 200
+[debug] [2019-08-11T19:32:20.000Z] [functions] Using node@11 from host.
+[debug] [2019-08-11T19:32:20.001Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/migg-63592/adminSdkConfig  
+ 
+[debug] [2019-08-11T19:32:20.269Z] <<< HTTP RESPONSE 200
+[info] +  functions: Emulator started at http://localhost:5000
+[debug] [2019-08-11T19:32:20.565Z] [functions] Watching "E:\migg\functions" for Cloud Functions...
+[debug] [2019-08-11T19:32:22.129Z] DEBUG: [runtime-status] Functions runtime initialized. {"cwd":"E:\\migg\\functions","node_version":"11.6.0"}
+[debug] [2019-08-11T19:32:22.130Z] DEBUG: [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-08-11T19:32:22.136Z] DEBUG: [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.3.0","resolution":"E:\\migg\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-08-11T19:32:22.139Z] DEBUG: [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"E:\\migg\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-08-11T19:32:22.140Z] DEBUG: [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"E:\\migg\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[warn] !  Error: Cannot find module './__sapper__/build/server/server'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:603:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:25)
+    at Module.require (internal/modules/cjs/loader.js:657:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (E:\migg\functions\index.js:5:20)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+[warn] !  We were unable to load your functions code. (see above)
