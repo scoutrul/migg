@@ -1,0 +1,19 @@
+webpack
+    - add scss
+ 
+
+ components
+    - bar
+        - proprs: { name, score, icon, color }
+    - bar vs bar
+
+http
+    - mockup json api
+    - firebase project
+        - add tourney
+            - settings { type, players, prizes }
+            - admin tourney
+        - registration
+            - join tourney
+                - post result
+        - chates
