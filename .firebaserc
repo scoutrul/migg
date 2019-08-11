@@ -1,5 +1,6 @@
 {
   "projects": {
-    "migg": "migg-63592"
+    "migg": "migg-63592",
+    "default": "migg-63592"
   }
 }
