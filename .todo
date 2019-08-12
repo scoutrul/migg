@@ -17,3 +17,5 @@ http
             - join tourney
                 - post result
         - chates
+SSR
+    + deploy to firebase
