@@ -1,46 +1,62 @@
+<section class="grid grid--row">
+	<section class="grid grid--column">
+		<CellCell {...cellcell1}/>
+		<CellCell {...cellcell2}/>
+		<CellCell {...cellcell3}/>
+		<CellCell {...cellcell1}/>
+		<CellCell {...cellcell2}/>
+		<CellCell {...cellcell3}/>
+		<CellCell {...cellcell1}/>
+		<CellCell {...cellcell2}/>
+		<CellCell {...cellcell3}/>
+	</section>
+	<section class="grid grid--column">
+		<CellCell {...cellcell1}/>
+		<CellCell {...cellcell2}/>
+		<CellCell {...cellcell3}/>
+		<CellCell {...cellcell1}/>
+	</section>
+	<section class="grid grid--column">
+		<CellCell {...cellcell1}/>
+		<CellCell {...cellcell2}/>
+	</section>
+	<section class="grid grid--column">
+		<CellCell {...cellcell1}/>
+	</section>
+</section>
+
+<script>
+import CellCell from "../components/blocks/Cell/CellCell.svelte";
+
+let cellcell1 = {
+	label1: 'label1',
+	score1: '1',
+	label2: 'label2',
+	score2: '2',
+}
+let cellcell2 = {
+	score1: '4',
+	score2: '1',
+}
+let cellcell3 = {
+
+}
+</script>
+
 <style>
-	h1, figure, p {
-		text-align: center;
-		margin: 0 auto;
-	}
-
-	h1 {
-		font-size: 2.8em;
-		text-transform: uppercase;
-		font-weight: 700;
-		margin: 0 0 0.5em 0;
-	}
-
-	figure {
-		margin: 0 0 1em 0;
-	}
-
-	img {
-		width: 100%;
-		max-width: 400px;
-		margin: 0 0 1em 0;
-	}
-
-	p {
-		margin: 1em auto;
-	}
-
-	@media (min-width: 480px) {
-		h1 {
-			font-size: 4em;
-		}
-	}
+.grid {
+	display: grid;
+	grid-gap: 10px;
+}
+.grid--row {
+	display: grid;
+    grid-template-rows: 1fr;
+    grid-auto-flow: column;
+    align-items: center;
+	grid-gap: 20px;
+}
+.grid--column {
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr;
+}
 </style>
-
-<svelte:head>
-	<title>Sapper project template</title>
-</svelte:head>
-
-<h1>Great success!</h1>
-
-<figure>
-	<img alt='Borat' src='great-success.png'>
-	<figcaption>HIGH FIVE!</figcaption>
-</figure>
-
-<p><strong>Try editing this file (src/routes/index.svelte) to test live reloading.</strong></p>
