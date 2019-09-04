@@ -28,9 +28,9 @@
 
 <style>
 .cellcell__container {
-    display: flex;
-    flex-direction: column;
-    max-width: 200px;
+    display: grid;
+    padding: 10px 0;
+    min-height: 60px;
 }
 .cellcell__cell {
 }
