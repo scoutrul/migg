@@ -1,0 +1,3 @@
+.cell__container.svelte-1bircw5{display:flex;width:100%}.cell__label.svelte-1bircw5{display:flex;justify-content:center;flex:1 1 100%}.cell__score.svelte-1bircw5{display:flex;justify-content:center;flex:1 1 40px}
+.cellcell__container.svelte-1cpf8p3{display:grid;padding:10px 0;min-height:60px}
+.grid.svelte-3awki1{display:flex;flex-direction:column}.grid--row.svelte-3awki1{display:grid;grid-template-rows:1fr;grid-auto-flow:column;align-items:center;grid-gap:20px}.grid--column.svelte-3awki1{grid-template-rows:1fr;grid-template-columns:1fr}
